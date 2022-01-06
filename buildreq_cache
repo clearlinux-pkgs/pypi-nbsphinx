@@ -1,0 +1,6 @@
+0.8.8
+pypi(ipywidgets)
+pypi(jupyterlab)
+pypi(jupytext)
+pypi(matplotlib)
+pypi(pandas)
