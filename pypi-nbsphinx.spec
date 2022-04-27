@@ -4,7 +4,7 @@
 #
 Name     : pypi-nbsphinx
 Version  : 0.8.8
-Release  : 51
+Release  : 52
 URL      : https://files.pythonhosted.org/packages/7d/5c/2b8da705a79820e08bddd99b4f25ea140e5feeae080219a3351fa17b7b3d/nbsphinx-0.8.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7d/5c/2b8da705a79820e08bddd99b4f25ea140e5feeae080219a3351fa17b7b3d/nbsphinx-0.8.8.tar.gz
 Summary  : Jupyter Notebook Tools for Sphinx
@@ -14,9 +14,6 @@ Requires: pypi-nbsphinx-license = %{version}-%{release}
 Requires: pypi-nbsphinx-python = %{version}-%{release}
 Requires: pypi-nbsphinx-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: nbsphinx
-Provides: nbsphinx-python
-Provides: nbsphinx-python3
 BuildRequires : pypi(docutils)
 BuildRequires : pypi(ipywidgets)
 BuildRequires : pypi(jinja2)
@@ -81,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641458323
+export SOURCE_DATE_EPOCH=1651102068
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
