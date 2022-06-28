@@ -4,7 +4,7 @@
 #
 Name     : pypi-nbsphinx
 Version  : 0.8.9
-Release  : 55
+Release  : 56
 URL      : https://files.pythonhosted.org/packages/36/a8/431455c29bf2a5f559bba7f890a640d474f8e3f870cabb57bc08ca9ac5d9/nbsphinx-0.8.9.tar.gz
 Source0  : https://files.pythonhosted.org/packages/36/a8/431455c29bf2a5f559bba7f890a640d474f8e3f870cabb57bc08ca9ac5d9/nbsphinx-0.8.9.tar.gz
 Summary  : Jupyter Notebook Tools for Sphinx
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656390404
+export SOURCE_DATE_EPOCH=1656392237
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
