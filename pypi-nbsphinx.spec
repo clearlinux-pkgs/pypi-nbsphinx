@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-nbsphinx
-Version  : 0.9.2
-Release  : 68
-URL      : https://files.pythonhosted.org/packages/fe/6b/07c6a160493e5edeedfa19fe6f665925fe0a4ba55e030865435ebce31252/nbsphinx-0.9.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/fe/6b/07c6a160493e5edeedfa19fe6f665925fe0a4ba55e030865435ebce31252/nbsphinx-0.9.2.tar.gz
+Version  : 0.9.3
+Release  : 69
+URL      : https://files.pythonhosted.org/packages/51/31/85cb6129d22c75722d1e1a8db0cdaf36ab7e1e7a59189bfa275445c8ab2d/nbsphinx-0.9.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/51/31/85cb6129d22c75722d1e1a8db0cdaf36ab7e1e7a59189bfa275445c8ab2d/nbsphinx-0.9.3.tar.gz
 Summary  : Jupyter Notebook Tools for Sphinx
 Group    : Development/Tools
 License  : MIT
@@ -64,10 +64,10 @@ python3 components for the pypi-nbsphinx package.
 
 
 %prep
-%setup -q -n nbsphinx-0.9.2
-cd %{_builddir}/nbsphinx-0.9.2
+%setup -q -n nbsphinx-0.9.3
+cd %{_builddir}/nbsphinx-0.9.3
 pushd ..
-cp -a nbsphinx-0.9.2 buildavx2
+cp -a nbsphinx-0.9.3 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684972834
+export SOURCE_DATE_EPOCH=1693252359
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
