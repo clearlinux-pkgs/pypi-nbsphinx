@@ -5,7 +5,7 @@
 #
 Name     : pypi-nbsphinx
 Version  : 0.9.3
-Release  : 70
+Release  : 71
 URL      : https://files.pythonhosted.org/packages/51/31/85cb6129d22c75722d1e1a8db0cdaf36ab7e1e7a59189bfa275445c8ab2d/nbsphinx-0.9.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/51/31/85cb6129d22c75722d1e1a8db0cdaf36ab7e1e7a59189bfa275445c8ab2d/nbsphinx-0.9.3.tar.gz
 Summary  : Jupyter Notebook Tools for Sphinx
