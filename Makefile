@@ -1,5 +1,5 @@
 PKG_NAME := pypi-nbsphinx
-URL = https://files.pythonhosted.org/packages/af/49/a6b1ed510bcc7734daa20372222804d6109d3087ced82f65c8720da90ef4/nbsphinx-0.9.5.tar.gz
+URL = https://files.pythonhosted.org/packages/62/38/6f6a0f9115b493af9d69b68335945827dd46e09de8ef525d1f58cd0870dc/nbsphinx-0.9.6.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
